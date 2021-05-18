@@ -17,7 +17,7 @@ need macros when we already have functions.
 ### The Difference Between Macros and Functions
 
 Fundamentally, macros are a way of writing code that writes other code, which
-is known as *metaprogramming*. In Appendix C, we discuss the `derive`
+is known as *metaprogramming*. In [Appendix C][appendix-c-derivable-traits], we discuss the `derive`
 attribute, which generates an implementation of various traits for you. We’ve
 also used the `println!` and `vec!` macros throughout the book. All of these
 macros *expand* to produce more code than the code you’ve written manually.
@@ -520,3 +520,6 @@ solutions.
 
 Next, we’ll put everything we’ve discussed throughout the book into practice
 and do one more project!
+
+[appendix-c-derivable-traits]:
+appendix-03-derivable-traits
